@@ -21,7 +21,7 @@ namespace Endeks
             boy = boy / 100;
             endeks = kilo / (boy * boy);
 
-            Console.WriteLine($"{endeks}");
+           Console.WriteLine($"Yağ oranınız: {endeks}");
 
             if (endeks < 18.5)
             {
